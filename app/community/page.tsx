@@ -45,6 +45,14 @@ const quickLinks = [
     disabled: false,
   },
   {
+    name: "Roadmap",
+    description: "Community roadmap",
+    icon: Github,
+    href: "https://github.com/orgs/Ztack/projects/1",
+    color: "bg-foreground",
+    disabled: false,
+  },
+  {
     name: "Twitch",
     description: "Live streams",
     icon: Tv,
