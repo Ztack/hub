@@ -8,7 +8,10 @@ const jetbrainsMono = JetBrains_Mono({ subsets: ["latin", "latin-ext"], weight: 
 
 export const metadata: Metadata = {
   title: "Ztack | Tech Community",
-  description: "A community for DevOps, security, cloud-native, and software engineering",
+  description: "A community of engineers passionate about software, security, privacy, cloud-native, self-hosting, open source, AI, and DevOps.",
+  icons: {
+    icon: "/images/ztack.png",
+  },
 }
 
 export default function RootLayout({
