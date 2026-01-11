@@ -16,7 +16,7 @@ const quickLinks = [
     name: "Discord",
     description: "Join our community",
     icon: MessageCircle,
-    href: "#",
+    href: "https://discord.gg/7BfYGBAD",
     color: "bg-[#5865F2]",
     disabled: false,
   },
@@ -24,7 +24,7 @@ const quickLinks = [
     name: "Bluesky",
     description: "Follow us on Bluesky",
     icon: BlueskyIcon,
-    href: "#",
+    href: "https://bsky.app/profile/ztack.org",
     color: "bg-[#0085FF]",
     disabled: false,
   },
@@ -32,7 +32,7 @@ const quickLinks = [
     name: "Twitter / X",
     description: "Follow for updates",
     icon: Twitter,
-    href: "#",
+    href: "https://x.com/ztackorg",
     color: "bg-foreground",
     disabled: false,
   },
@@ -40,7 +40,7 @@ const quickLinks = [
     name: "GitHub",
     description: "Open source projects",
     icon: Github,
-    href: "#",
+    href: "https://github.com/Ztack",
     color: "bg-foreground",
     disabled: false,
   },
@@ -48,7 +48,7 @@ const quickLinks = [
     name: "Twitch",
     description: "Live streams",
     icon: Tv,
-    href: "#",
+    href: "https://www.twitch.tv/ztackorg",
     color: "bg-[#9146FF]",
     disabled: false,
   },
@@ -117,11 +117,10 @@ export default function CommunityPage() {
             {quickLinks.map((link) => (
               <div
                 key={link.name}
-                className={`group flex items-center gap-4 w-full p-4 border-4 bg-card transition-all ${
-                  link.disabled
-                    ? "border-border/50 opacity-50 cursor-not-allowed"
-                    : "border-border hover:border-primary hover:-translate-y-0.5 cursor-pointer"
-                }`}
+                className={`group flex items-center gap-4 w-full p-4 border-4 bg-card transition-all ${link.disabled
+                  ? "border-border/50 opacity-50 cursor-not-allowed"
+                  : "border-border hover:border-primary hover:-translate-y-0.5 cursor-pointer"
+                  }`}
                 onClick={() => !link.disabled && (window.location.href = link.href)}
               >
                 <div
