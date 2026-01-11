@@ -26,7 +26,7 @@ export default function HomePage() {
                   SHARE
                 </h1>
                 <p className="font-sans text-lg text-muted-foreground max-w-md leading-relaxed">
-                  A community of engineers passionate about software engineering, security, privacy advocates, cloud-native, self-hosting, open source,
+                  A community of engineers passionate about software, security, privacy advocates, cloud-native, self-hosting, open source,
                   AI, and DevOps.
                 </p>
                 <div className="flex gap-4">
