@@ -111,7 +111,7 @@ export default function HomePage() {
             </p>
             <div className="pt-4 flex justify-center gap-8">
               <div className="text-center">
-                <div className="font-sans text-5xl font-bold text-primary">1K+</div>
+                <div className="font-sans text-5xl font-bold text-primary">1+</div>
                 <div className="font-sans text-sm text-muted-foreground uppercase tracking-wider">Members</div>
               </div>
               <div className="text-center">
